@@ -1,3 +1,17 @@
+# Highlighter tabs
+
+Приложение для перемещения по папкам. При наведении мыши вкладка подсвечивается. 
+В данном приложении использован React Router для маршрутизации.
+
+Приложение выполнено на React по курсу 20-react-apps.
+
+[![Конвертация](https://ic.wampi.ru/2021/03/08/SNIMOK-EKRANA-2021-03-08-V-17.26.00.pnghttps://ic.wampi.ru/2021/03/11/SNIMOK-EKRANA-2021-03-11-V-17.03.43.png)]()
+
+## Используемые технологии:
+React, включая разбивку исходного кода на компоненты, React Router для маршрутизации, CSS, методология БЭМ.
+
+С проектом можно ознакомиться по ссылке: https://highlighted-tabs.vercel.app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
