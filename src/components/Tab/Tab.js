@@ -13,8 +13,13 @@ const Tab = ({children}) => {
   };
 
   return (
-    <div className="tab" onMouseOut={hideHighlight} onMouseMove={moveHighlight}>
-      <div className="highlight" style={highlightStyle} />
+    <div
+      className="tab"
+      onMouseOut={hideHighlight}
+      onMouseMove={moveHighlight}>
+      <div
+        className="highlight"
+        style={highlightStyle} />
       {children}
     </div>
   )

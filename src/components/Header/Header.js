@@ -6,13 +6,26 @@ const Header = () => {
   return (
     <div className="tabs">
       <Tab>
-        <NavLink to="/" activeClassName="is-active" exact>Home</NavLink>
+        <NavLink
+          to="/"
+          activeClassName="is-active"
+          exact>
+          Home
+        </NavLink>
       </Tab>
       <Tab>
-        <NavLink to="/about" activeClassName="is-active">About</NavLink>
+        <NavLink
+          to="/about"
+          activeClassName="is-active">
+          About
+        </NavLink>
       </Tab>
       <Tab>
-        <NavLink to="/features" activeClassName="is-active">Features</NavLink>
+        <NavLink
+          to="/features"
+          activeClassName="is-active">
+          Features
+        </NavLink>
       </Tab>
     </div>
   );
